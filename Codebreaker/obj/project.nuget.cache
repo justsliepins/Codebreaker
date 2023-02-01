@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t52PIRY3pkPGc4PpEDjK35TM9asDheyNbqBfAXFAJqL/cQ8/vY4rV3z60r0/z9XmWBmGjdOpYwBPpHm847GXZA==",
+  "dgSpecHash": "OyyoSvyRDz454UCbKydBH1W9ZOXWf4HnNiW7FxC+9EVSPSERbtGMGbEK9Iq/YOOjWNFurHAXOe/DlSgocxBmjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\justs\\OneDrive\\Documents\\projects\\Codebreaker\\Codebreaker\\Codebreaker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\justs\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
