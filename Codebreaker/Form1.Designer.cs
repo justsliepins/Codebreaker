@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.current_pin = new System.Windows.Forms.Label();
+            this.currentPin = new System.Windows.Forms.Label();
             this.nextPin = new System.Windows.Forms.Button();
             this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // current_pin
+            // currentPin
             // 
-            this.current_pin.AutoSize = true;
-            this.current_pin.Font = new System.Drawing.Font("Tahoma", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.current_pin.Location = new System.Drawing.Point(325, 80);
-            this.current_pin.Name = "current_pin";
-            this.current_pin.Size = new System.Drawing.Size(89, 40);
-            this.current_pin.TabIndex = 0;
-            this.current_pin.Text = "1111";
+            this.currentPin.AutoSize = true;
+            this.currentPin.Font = new System.Drawing.Font("Tahoma", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.currentPin.Location = new System.Drawing.Point(325, 80);
+            this.currentPin.Name = "currentPin";
+            this.currentPin.Size = new System.Drawing.Size(89, 40);
+            this.currentPin.TabIndex = 0;
+            this.currentPin.Text = "1111";
             // 
             // nextPin
             // 
@@ -69,7 +69,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.nextPin);
-            this.Controls.Add(this.current_pin);
+            this.Controls.Add(this.currentPin);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -79,7 +79,7 @@
 
         #endregion
 
-        private Label current_pin;
+        private Label currentPin;
         private Button nextPin;
         private ListBox listBox;
     }
